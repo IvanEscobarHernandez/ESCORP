@@ -1,0 +1,363 @@
+body{
+    background: white;
+}
+
+.container_contacto{
+    width: 100%;
+}
+
+
+/* -------Header------------- */
+
+.header_contacto{
+    width: 100%;
+    height: 450px;
+    background: #000;
+}
+
+.img_head_contacto{
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding-top: 100px;
+    object-fit: cover;
+}
+
+
+/* ------------Cuerpo---------------*/
+
+.section_contacto_main{
+    width: 100%;
+    height: auto;
+}
+
+.contenedor_subtitulo_main_contacto{
+    width: 100%;
+    height: 60px;
+    text-align: center;
+}
+
+.subtitulo_main_contacto{
+    width: 300px;
+    margin: auto;
+    font-size: 50px;
+    line-height: 60px;
+}
+
+.contenedor_subtitulo_main_contacto{
+    width: 100%;
+    height: 60px;
+    text-align: center;
+}
+
+.contenedor_check_slider_main_contacto{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/* Texto */
+.checklist_contacto_main{
+    width: 40%;
+    margin-left: 5%;
+    /* background: goldenrod; */
+}
+
+.n_contacto_main{
+    width: 330px;
+    border-bottom: 3px solid #000;
+    font-size: 30px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+
+.contacto_main{
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.copy_contacto_main{
+    width: 100%;
+    text-align: justify;
+    font-size: 16px;
+}
+
+
+/* Formulario */
+.formulario_container_contacto{
+    /* background-image: url("../img/contacto8.jpg");
+    background-size: 100% 100%;
+    background-attachment: scroll; */
+    width: 45%;
+    height: 700px;
+    top: 0px;
+    margin: auto;
+    font-family: monospace;
+    position: relative;
+}
+
+.contacto_img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+}
+
+form{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+    position: absolute;
+}
+
+.comentarios{
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.formulario__label{
+    display: block;
+    font-weight: 700;
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+    margin-bottom: 0px;
+    font-size: 16px;
+}
+
+.formulario__grupo-input{
+    position: relative;
+}
+
+.inputs{
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    /* margin-bottom: 20px; */
+    /* box-sizing: border-box; */
+    font-size: 17px;
+    border: 5px solid transparent;
+    border-radius: 3px;
+    padding:0 40px 0 10px;
+    transition: .3s ease all;
+}
+
+.inputs:focus{
+    border: 5px solid blue;
+    outline: none;
+    box-shadow: 3px 0px 30px rgba(163,163,163, 1);
+}
+
+.inputs:focus{
+    border: 5px solid blue;
+    outline: none;
+    box-shadow: 3px 0px 30px rgba(163,163,163, 1);
+}
+
+.formulario__input-error{
+    font-size: 12px;
+    margin-bottom: 0;
+    display: none;
+}
+
+.formulario__input-error-activo{
+    display: block;
+    color: red;
+}
+
+.formulario__validacion-estado{
+    position: absolute;
+    right: 10px;
+    bottom: 15px;
+    z-index: 100;
+    font-size: 16px;
+    opacity: 0;
+}
+
+.formulario__checkbox{
+    margin-right: 20px;
+}
+
+.formulario__mensaje{
+    height: 45px;
+    line-height: 45px;
+    background-color: red;
+    color: black;
+    padding: 0 15px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    display: none;
+}
+
+.formulario__mensaje-activo{
+    display: block;
+}
+
+.textarea{
+    width: 90%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+    min-height: 100px;
+    max-height: 200px;
+    min-width: 100%;
+    max-width: 100%;
+}
+
+.textarea:focus{
+    border: 5px solid blue;
+    outline: none;
+    box-shadow: 3px 0px 30px rgba(163,163,163, 0.4);
+}
+
+.boton{
+    font-size: 20px;
+    padding: 10px;
+    height: 45px;
+    line-height: 45px;
+    width: 30%;
+    background:blue;
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+}
+
+.boton:hover{
+    cursor: pointer;
+    box-shadow: 3px 0 30px rgba(163,163,163, 1);
+}
+
+/* Estilos para validación */
+.formulario__grupo-correcto .formulario__validacion-estado {
+    color: #2ed12d;
+    opacity: 1;
+}
+
+.formulario__grupo-correcto .inputs {
+    border: 5px solid #2ed12d;
+}
+
+.formulario__grupo-incorrecto .formulario__label {
+    color: red;
+    opacity: 1;
+}
+
+.formulario__grupo-incorrecto .inputs {
+    border: 5px solid red;
+}
+
+.formulario__grupo-incorrecto .formulario__validacion-estado {
+    color: red;
+    opacity: 1;
+}
+
+/* ---------Footer--------- */
+/* .section_footer{
+    width: 100%;
+    background: #000;
+    color: #fff;
+    padding: 30px;
+    border-top: 4px solid blue;
+    text-align: center;
+}
+
+.n_footer{
+    font-style: italic;
+} */
+/* Pie de página */
+.footer{
+    width: 100%;
+    min-height: 20px;
+    padding: 12px 0px;
+    margin: 0%;
+    border-top: 4px solid blue;
+    background: #000;
+    text-align: center;
+    position: absolute;
+  }
+  
+  .footer p{
+    color: #fff;
+    margin: 10px auto;
+    padding: 10px auto;
+    font-style: italic;
+    font-size: 2vmin;
+  }
+
+
+/* Pantalla mediana */
+
+@media screen and (max-width: 900px) {
+
+    /* -----Texto---- */
+    .checklist_contacto_main{
+        width: 90%;
+        margin: auto;
+    }
+
+    /* -----formulario------ */
+
+    .formulario_container_contacto{
+        width: 90%;
+    }
+    
+}
+
+/* Pantalla telefono */
+@media screen and (max-width: 520px) {
+
+/* --------------Cuerpo----------- */
+
+    .checklist_contacto_main{
+        width: 90%;
+        margin: auto;
+    }
+
+    .contacto_main{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .copy_contacto_main{
+        width: 100%;
+        font-size: 15px;
+    }
+
+    /* -----formulario------ */
+
+    .formulario_container_contacto{
+        width: 90%;
+    }
+
+    .contacto_img{
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    /* ------Footer------ */
+    /* .n_footer{
+        font-size: 13px;
+    } */
+    .footer{
+        min-height: 10px;
+        padding: 10px 0px;
+      }
+    
+      .footer p{
+        font-size: 3vmin;
+      }
+
+}
