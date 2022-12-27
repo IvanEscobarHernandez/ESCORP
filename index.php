@@ -34,6 +34,7 @@
                 <span style="--l: 'O';">O</span>
                 <span style="--l: 'R';">R</span>
                 <span style="--l: 'P';">P</span>
+                <span style="--l: 'P';">P</span>
             </div>
             <h2 class="eslogan">Una nueva forma de brindar servicios</h2>
             <br>

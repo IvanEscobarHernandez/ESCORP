@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,9 +11,9 @@
     <link rel="stylesheet" href="../css/indexCLEAN.css">
 
     <?php
-        require_once "menuCLEAN.php";
+    require_once "menuCLEAN.php";
     ?>
-    
+
 </head>
 
 <body>
@@ -40,7 +41,7 @@
         </div>
 
     </header>
-    
+
     <!-- Events Nuevos lanzamientos-->
     <section class="events" id="events">
 
@@ -56,36 +57,36 @@
         <!-- Swiper -->
         <div class="swiper mySwiper">
             <div class="swiper-wrapper">
-                
+
                 <div class="swiper-slide">
-                    <a href="#"><img src="../img/Mayoreo2.jpg"/></a>
+                    <a href="#"><img src="../img/Mayoreo2.jpg" /></a>
                     <div class="info">
                         <h5>Mayoreo <br> <span>ESCORP Clean provee tu negocio.</span></h5>
                     </div>
                 </div>
 
                 <div class="swiper-slide">
-                    <a href="#"><img src="../img/medio mayoreo4.jpg"/></a>
+                    <a href="#"><img src="../img/medio mayoreo4.jpg" /></a>
                     <div class="info">
                         <h5>Medio mayoreo <br> <span>ESCORP Clean provee tu negocio.</span></h5>
                     </div>
                 </div>
 
                 <div class="swiper-slide">
-                    <a href="#"><img src="../img/menudeo7.jpg"/></a>
+                    <a href="#"><img src="../img/menudeo7.jpg" /></a>
                     <div class="info">
                         <h5>Menudeo <br> <span>ESCORP Clean provee tu negocio.</span></h5>
                     </div>
                 </div>
 
             </div>
-            
+
             <div class="swiper-button-next"></div>
             <div class="swiper-button-prev"></div>
-            
+
             <div class="swiper-pagination"></div>
         </div>
-        
+
 
     </section>
 
@@ -108,117 +109,126 @@
 
                 <div class="swiper-slide">
                     <div class="imagen">
-                        <a href="#"><img src="../img/suavizantes.jpg"/></a>
+                        <a href="#"><img src="../img/suavizantes.jpg" /></a>
                         <div id="capa" class="capa">
                             <h3>¡Te sorprenderan!</h3>
                             <h6>Esperalo muy pronto</h6>
                         </div>
                         <div class="info2">
-                            <br><h5>Suavizantes.</h5>
+                            <br>
+                            <h5>Suavizantes.</h5>
                         </div>
                     </div>
                 </div>
 
                 <div class="swiper-slide">
                     <div class="imagen">
-                        <a href="#"><img src="../img/detergente.jpg"/></a>
+                        <a href="#"><img src="../img/detergente.jpg" /></a>
                         <div id="capa" class="capa">
                             <h3>¡Te sorprenderan!</h3>
                             <h6>Esperalo muy pronto</h6>
                         </div>
                         <div class="info3">
-                            <br><h5>Detergentes.</h5>
+                            <br>
+                            <h5>Detergentes.</h5>
                         </div>
                     </div>
                 </div>
 
                 <div class="swiper-slide">
                     <div class="imagen">
-                        <a href="#"><img src="../img/pisos.jpg"/></a>
+                        <a href="#"><img src="../img/pisos.jpg" /></a>
                         <div id="capa" class="capa">
                             <h3>¡Te sorprenderan!</h3>
                             <h6>Esperalo muy pronto</h6>
                         </div>
                         <div class="info4">
-                            <br><h5>Multiusos.</h5>
+                            <br>
+                            <h5>Multiusos.</h5>
                         </div>
                     </div>
                 </div>
 
                 <div class="swiper-slide">
                     <div class="imagen">
-                        <a href="#"><img src="../img/hogar.jpg"/></a>
+                        <a href="#"><img src="../img/hogar.jpg" /></a>
                         <div id="capa" class="capa">
                             <h3>¡Te sorprenderan!</h3>
                             <h6>Esperalo muy pronto</h6>
                         </div>
                         <div class="info7">
-                            <br><h5>Hogar.</h5>
+                            <br>
+                            <h5>Hogar.</h5>
                         </div>
                     </div>
                 </div>
 
                 <div class="swiper-slide">
                     <div class="imagen">
-                        <a href="#"><img src="../img/jarceria.jpg"/></a>
+                        <a href="#"><img src="../img/jarceria.jpg" /></a>
                         <div id="capa" class="capa">
                             <h3>¡Te sorprenderan!</h3>
                             <h6>Esperalo muy pronto</h6>
                         </div>
                         <div class="info6">
-                            <br><h5>Jarceria.</h5>
+                            <br>
+                            <h5>Jarceria.</h5>
                         </div>
                     </div>
                 </div>
 
                 <div class="swiper-slide">
                     <div class="imagen">
-                        <a href="#"><img src="../img/baños.jpg"/></a>
+                        <a href="#"><img src="../img/baños.jpg" /></a>
                         <div id="capa" class="capa">
                             <h3>¡Te sorprenderan!</h3>
                             <h6>Esperalo muy pronto</h6>
                         </div>
                         <div class="info8">
-                            <br><h5>Baños.</h5>
+                            <br>
+                            <h5>Baños.</h5>
                         </div>
                     </div>
                 </div>
 
                 <div class="swiper-slide">
                     <div class="imagen">
-                        <a href="#"><img src="../img/automotriz.jpg"/></a>
+                        <a href="#"><img src="../img/automotriz.jpg" /></a>
                         <div id="capa" class="capa">
                             <h3>¡Te sorprenderan!</h3>
                             <h6>Esperalo muy pronto</h6>
                         </div>
                         <div class="info5">
-                            <br><h5>Automotriz.</h5>
+                            <br>
+                            <h5>Automotriz.</h5>
                         </div>
                     </div>
                 </div>
 
                 <div class="swiper-slide">
                     <div class="imagen">
-                        <a href="#"><img src="../img/aromas.jpg"/></a>
+                        <a href="#"><img src="../img/aromas.jpg" /></a>
                         <div id="capa" class="capa">
                             <h3>¡Te sorprenderan!</h3>
                             <h6>Esperalo muy pronto</h6>
                         </div>
                         <div class="info9">
-                            <br><h5>Aromas.</h5>
+                            <br>
+                            <h5>Aromas.</h5>
                         </div>
                     </div>
                 </div>
 
                 <div class="swiper-slide">
                     <div class="imagen">
-                        <a href="#"><img src="../img/higienicos.jpg"/></a>
+                        <a href="#"><img src="../img/higienicos.jpg" /></a>
                         <div id="capa" class="capa">
                             <h3>¡Te sorprenderan!</h3>
                             <h6>Esperalo muy pronto</h6>
                         </div>
                         <div class="info10">
-                            <br><h5>Higiénicos.</h5>
+                            <br>
+                            <h5>Higiénicos.</h5>
                         </div>
                     </div>
                 </div>
@@ -238,7 +248,9 @@
     <!-- Unete a nosotros -->
     <section class="join">
         <div class="join-content">
-            <b><h1 class="titulos-join">Únete a Clean</h1></b>
+            <b>
+                <h1 class="titulos-join">Únete a Clean</h1>
+            </b>
             <div class="line"></div>
             <p class="parrafo">Si deseas iniciar tu negocio, contactanos, nosotros te ayudamos y capacitamos.</p>
             <center><a class="link" href="#" target="_blank">Unete a Clean</a></center>
@@ -251,120 +263,118 @@
 
     <!-- Initialize Swiper -->
     <script>
-      var swiper = new Swiper(".mySwiper", {
-        effect: "coverflow",
-        grabCursor: true,
-        centeredSlides: true,
-        slidesPerView: "1.5",
-        loop:true,
-        coverflowEffect: {
-          rotate: 0,
-          stretch: 0,
-          depth: 400,
-          modifier: 1,
-          slideShadows: false,
-        },
-        pagination: {
-          el: ".swiper-pagination",
-          clickable:true,
-          dynamicBullets:true,
-        },
-        autoplay:{
-            delay:2000,
-            pauseOnMouseEnter:true,
-            disableOnInteraction:false,
-        },
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        },
-      });
+        var swiper = new Swiper(".mySwiper", {
+            effect: "coverflow",
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: "1.5",
+            loop: true,
+            coverflowEffect: {
+                rotate: 0,
+                stretch: 0,
+                depth: 400,
+                modifier: 1,
+                slideShadows: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+                dynamicBullets: true,
+            },
+            autoplay: {
+                delay: 2000,
+                pauseOnMouseEnter: true,
+                disableOnInteraction: false,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
     </script>
 
     <!-- Initialize Swiper_2 -->
     <script>
-    
-    function resize() {
-        if( $(window).width()>820){
-            var swiper2 = new Swiper(".mySwiper2", {
-                effect: "coverflow",
-                grabCursor: true,
-                centeredSlides: true,
-                slidesPerView: "3",
-                loop:true,
-                coverflowEffect: {
-                rotate: 25,
-                stretch: 20,
-                depth: 500,
-                modifier: 1,
-                slideShadows: true,
-                },
-                pagination: {
-                el: ".swiper-pagination",
-                clickable:true,
-                dynamicBullets:true,
-                },
-                autoplay:{
-                    delay:2000,
-                    pauseOnMouseEnter:true,
-                    disableOnInteraction:false,
-                },
-                navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
-                },
-            });
+        function resize() {
+            if ($(window).width() > 820) {
+                var swiper2 = new Swiper(".mySwiper2", {
+                    effect: "coverflow",
+                    grabCursor: true,
+                    centeredSlides: true,
+                    slidesPerView: "3",
+                    loop: true,
+                    coverflowEffect: {
+                        rotate: 25,
+                        stretch: 20,
+                        depth: 500,
+                        modifier: 1,
+                        slideShadows: false,
+                    },
+                    pagination: {
+                        el: ".swiper-pagination",
+                        clickable: true,
+                        dynamicBullets: true,
+                    },
+                    autoplay: {
+                        delay: 2000,
+                        pauseOnMouseEnter: true,
+                        disableOnInteraction: false,
+                    },
+                    navigation: {
+                        nextEl: ".swiper-button-next",
+                        prevEl: ".swiper-button-prev",
+                    },
+                });
+            } else {
+                var swiper2 = new Swiper(".mySwiper2", {
+                    effect: "coverflow",
+                    grabCursor: true,
+                    centeredSlides: true,
+                    slidesPerView: "1.3",
+                    loop: true,
+                    coverflowEffect: {
+                        rotate: 50,
+                        stretch: 40,
+                        depth: 100,
+                        modifier: 1,
+                        slideShadows: true,
+                    },
+                    pagination: {
+                        el: ".swiper-pagination",
+                        clickable: true,
+                        dynamicBullets: true,
+                    },
+                    autoplay: {
+                        delay: 2000,
+                        pauseOnMouseEnter: true,
+                        disableOnInteraction: false,
+                    },
+                    navigation: {
+                        nextEl: ".swiper-button-next",
+                        prevEl: ".swiper-button-prev",
+                    },
+                });
+            }
         }
-        else{
-            var swiper2 = new Swiper(".mySwiper2", {
-                effect: "coverflow",
-                grabCursor: true,
-                centeredSlides: true,
-                slidesPerView: "1.3",
-                loop:true,
-                coverflowEffect: {
-                rotate: 50,
-                stretch: 40,
-                depth: 100,
-                modifier: 1,
-                slideShadows: true,
-                },
-                pagination: {
-                el: ".swiper-pagination",
-                clickable:true,
-                dynamicBullets:true,
-                },
-                autoplay:{
-                    delay:2000,
-                    pauseOnMouseEnter:true,
-                    disableOnInteraction:false,
-                },
-                navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
-                },
-            });
-        }
-    }
-    $(window).on("resize",resize);
-    resize();
+        $(window).on("resize", resize);
+        resize();
     </script>
 
 
 </body>
 
 <script>
-    function capas1(){
+    function capas1() {
         document.getElementById("capa1").classList.remove("capa")
         document.getElementById("capa1").classList.add("capa-active")
     }
 
-    function capas2(){
+    function capas2() {
         document.getElementById("capa2").classList.remove("capa")
         document.getElementById("capa2").classList.add("capa-active")
     }
 
-    function capas3(){
+    function capas3() {
         document.getElementById("capa3").classList.remove("capa")
         document.getElementById("capa3").classList.add("capa-active")
     }
