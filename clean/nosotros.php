@@ -19,7 +19,7 @@
         
         <header>
             <br><br><br>
-            <img src="../img/nosotros CLEAN1.jpg" class="img_head">
+            <img src="../img/nosotrosClean.jpg" class="img_head">
             
             <!-- Titulo y Sub -->
             <div class="container_header">  
@@ -57,7 +57,7 @@
                         <div class="nosotros_main">
                             <b><br><h3 class="n_nosotros_main"></span>Misión</h3></b>
                             <div class="line_nosotros_main"></div>
-                            <p class="copy_nosotros_main" >Clean es el segundo lanzamiento de ESCORP, y siguiendo la misma linea, es una empresa 100% mexicanana cuya misión es brindar productos de limpiezas de la mas alta CALIDAD y al mejor PRECIO ayudando a la economìa de las familias mexicanas, asi como al medio ambiente. <br><br> En Clean no solo nos comprometemos con el uso de tecnologia, para impulsar a nuestros colaboradores a brindar un mejor servicio; también estamos comprometidos con el planeta, reciclando botellas para darles un nuevo uso. Como resultado esperamos que nuestros clientes sientan CONFIANZA y SEGURIDAD al usar dichos productos, al mismo tiempo que se identifican con nuestra misión de colaborar a construir un futuro mejor.</p>
+                            <p class="copy_nosotros_main" >Clean es el segundo lanzamiento de ESCORP, y bajo la misma tendencia, es una empresa 100% mexicanana cuya misión es brindar productos de limpiezas de la mas alta CALIDAD y al mejor PRECIO ayudando a la economìa de las familias mexicanas, asi como al medio ambiente. <br><br> En Clean no solo nos comprometemos con el uso de tecnologia, para impulsar a nuestros colaboradores a brindar un mejor servicio; también estamos comprometidos con el planeta, reciclando botellas para darles una segunda vida. Como resultado esperamos que nuestros clientes sientan CONFIANZA al usar consumir nuestros productos, al mismo tiempo que se identifican con nuestra misión de colaborar a construir un futuro mejor.</p>
                         </div>
         
                     </div>
@@ -68,8 +68,8 @@
                             <div class="col gallery">
                                 <div class="image_gallery">
                                     <img src="../img/galleryValoresExtra.jpg" alt="">
-                                    <img src="../img/headerESCORP.jpg" alt="">
-                                    <img src="../img/headerESCORP3.jpg" alt="">
+                                    <img src="../img/clean.jpg" alt="">
+                                    <img src="../img/economiaMexicana.webp" alt="">
                                     <img src="../img/nosotrosGalleryClean.webp" alt="">
                                 </div>
                             </div>
