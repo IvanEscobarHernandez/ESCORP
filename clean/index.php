@@ -8,7 +8,7 @@
     <title>ESCORP Clean</title>
 
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Water+Brush&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/indexCLEAN.css">
+    <link rel="stylesheet" href="../css/Clean/indexCLEAN.css">
 
     <?php
     require_once "menuCLEAN.php";
@@ -21,7 +21,7 @@
     <!-- Imagen de inicio -->
 
     <div class="imagen_inicio">
-        <img src="../img/imagenInicioClean.jpg" class="imageninicio">
+        <img src="../img/Clean/imagenInicioClean.jpg" class="imageninicio" alt="Image not available">
     </div>
 
     <!-- Encabezado -->
@@ -37,13 +37,25 @@
             </div>
             <h2 class="eslogan">Productos de limpieza</h2>
             <br>
-            <a class="link" href="#" target="_blank">Descubre más de Clean</a>
+            <a class="link" href="nosotros.php" target="_blank">Descubre más de Clean</a>
         </div>
+
+
 
     </header>
 
     <!-- Events Nuevos lanzamientos-->
     <section class="events" id="events">
+
+        <!-- Buscador -->
+        <!-- <div class="wrapper">
+            <div class="search-input">
+                <a href="" target="_blank" hidden></a>
+                <input type="text" placeholder="Buscar">
+                <div class="autocom-box"></div>
+                <div class="icon"><i class="fas fa-search"></i></div>
+            </div>
+        </div> -->
 
         <div>
             <h1 class="titulos_events">Conócenos</h1>
@@ -59,21 +71,21 @@
             <div class="swiper-wrapper">
 
                 <div class="swiper-slide">
-                    <a href="#"><img src="../img/Mayoreo2.jpg" /></a>
+                    <a href="#"><img src="../img/Clean/Mayoreo2.jpg" alt="Image not available" /></a>
                     <div class="info">
                         <h5>Mayoreo <br> <span>ESCORP Clean provee tu negocio.</span></h5>
                     </div>
                 </div>
 
                 <div class="swiper-slide">
-                    <a href="#"><img src="../img/medio mayoreo4.jpg" /></a>
+                    <a href="#"><img src="../img/Clean/medio mayoreo4.jpg" alt="Image not available" /></a>
                     <div class="info">
                         <h5>Medio mayoreo <br> <span>ESCORP Clean provee tu negocio.</span></h5>
                     </div>
                 </div>
 
                 <div class="swiper-slide">
-                    <a href="#"><img src="../img/menudeo7.jpg" /></a>
+                    <a href="#"><img src="../img/Clean/menudeo7.jpg" alt="Image not available" /></a>
                     <div class="info">
                         <h5>Menudeo <br> <span>ESCORP Clean provee tu negocio.</span></h5>
                     </div>
@@ -109,7 +121,23 @@
 
                 <div class="swiper-slide">
                     <div class="imagen">
-                        <a href="#"><img src="../img/suavizantes.jpg" /></a>
+                        <a href="fabuscorp.php"><img src="../img/Clean/pisos.jpg" alt="Image not available" /></a>
+                        <div id="capa" class="capa">
+                            <a href="fabuscorp.php" target="_blank">
+                                <h3>¡Te sorprenderan!</h3>
+                                <!-- <h6>Esperalo muy pronto</h6> -->
+                            </a>
+                        </div>
+                        <div class="info4">
+                            <br>
+                            <h5>Multiusos.</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="imagen">
+                        <a href="#"><img src="../img/Clean/suavizantes.JPG" alt="Image not available" /></a>
                         <div id="capa" class="capa">
                             <h3>¡Te sorprenderan!</h3>
                             <h6>Esperalo muy pronto</h6>
@@ -123,7 +151,7 @@
 
                 <div class="swiper-slide">
                     <div class="imagen">
-                        <a href="#"><img src="../img/detergente.jpg" /></a>
+                        <a href="#"><img src="../img/Clean/detergente.jpg" alt="Image not available" /></a>
                         <div id="capa" class="capa">
                             <h3>¡Te sorprenderan!</h3>
                             <h6>Esperalo muy pronto</h6>
@@ -135,23 +163,11 @@
                     </div>
                 </div>
 
-                <div class="swiper-slide">
-                    <div class="imagen">
-                        <a href="#"><img src="../img/pisos.jpg" /></a>
-                        <div id="capa" class="capa">
-                            <h3>¡Te sorprenderan!</h3>
-                            <h6>Esperalo muy pronto</h6>
-                        </div>
-                        <div class="info4">
-                            <br>
-                            <h5>Multiusos.</h5>
-                        </div>
-                    </div>
-                </div>
+
 
                 <div class="swiper-slide">
                     <div class="imagen">
-                        <a href="#"><img src="../img/hogar.jpg" /></a>
+                        <a href="#"><img src="../img/Clean/hogar.jpg" alt="Image not available" /></a>
                         <div id="capa" class="capa">
                             <h3>¡Te sorprenderan!</h3>
                             <h6>Esperalo muy pronto</h6>
@@ -165,7 +181,7 @@
 
                 <div class="swiper-slide">
                     <div class="imagen">
-                        <a href="#"><img src="../img/jarceria.jpg" /></a>
+                        <a href="#"><img src="../img/Clean/jarceria.jpg" alt="Image not available" /></a>
                         <div id="capa" class="capa">
                             <h3>¡Te sorprenderan!</h3>
                             <h6>Esperalo muy pronto</h6>
@@ -179,7 +195,7 @@
 
                 <div class="swiper-slide">
                     <div class="imagen">
-                        <a href="#"><img src="../img/baños.jpg" /></a>
+                        <a href="#"><img src="../img/Clean/banos.jpg" alt="Image not available" /></a>
                         <div id="capa" class="capa">
                             <h3>¡Te sorprenderan!</h3>
                             <h6>Esperalo muy pronto</h6>
@@ -193,7 +209,7 @@
 
                 <div class="swiper-slide">
                     <div class="imagen">
-                        <a href="#"><img src="../img/automotriz.jpg" /></a>
+                        <a href="#"><img src="../img/Clean/automotriz.jpg" alt="Image not available" /></a>
                         <div id="capa" class="capa">
                             <h3>¡Te sorprenderan!</h3>
                             <h6>Esperalo muy pronto</h6>
@@ -207,7 +223,7 @@
 
                 <div class="swiper-slide">
                     <div class="imagen">
-                        <a href="#"><img src="../img/aromas.jpg" /></a>
+                        <a href="#"><img src="../img/Clean/aromas.jpg" alt="Image not available" /></a>
                         <div id="capa" class="capa">
                             <h3>¡Te sorprenderan!</h3>
                             <h6>Esperalo muy pronto</h6>
@@ -221,10 +237,12 @@
 
                 <div class="swiper-slide">
                     <div class="imagen">
-                        <a href="#"><img src="../img/higienicos.jpg" /></a>
+                        <a href="#"><img src="../img/Clean/higienicos.png" alt="Image not available" /></a>
                         <div id="capa" class="capa">
-                            <h3>¡Te sorprenderan!</h3>
-                            <h6>Esperalo muy pronto</h6>
+                            <a href="bobinas.php" target="_blank">
+                                <h3>¡Te sorprenderan!</h3>
+                                <!-- <h6>Esperalo muy pronto</h6> -->
+                            </a>
                         </div>
                         <div class="info10">
                             <br>
@@ -253,14 +271,17 @@
             </b>
             <div class="line"></div>
             <p class="parrafo">Si deseas iniciar tu negocio, contactanos, nosotros te ayudamos y capacitamos.</p>
-            <center><a class="link" href="#" target="_blank">Unete a Clean</a></center>
+            <center><a class="link" href="#" target="_blank">Únete a Clean</a></center>
         </div>
     </section>
 
     <section class="footer">
-        <p>2020-2022 Website by ESCORP Technologies | All rights reserved.</p>
+        <p>2020-2023 Website by ESCORP Technologies | All rights reserved.</p>
     </section>
 
+    <!-- Buscador -->
+    <!-- <script src="../js/script.js"></script>
+    <script src="../suggestion.js"></script> -->
     <!-- Initialize Swiper -->
     <script>
         var swiper = new Swiper(".mySwiper", {

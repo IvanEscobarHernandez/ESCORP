@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/nosotrosESCORP.css">
+    <link rel="stylesheet" href="css/ESCORP/nosotrosESCORP.css">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Water+Brush&display=swap" rel="stylesheet">
     <title>Nosotros</title>
     <?php
@@ -19,7 +19,7 @@
         
         <header>
             <br><br><br>
-            <img src="img/headerESCORP13.jpg" class="img_head">
+            <img src="img/ESCORP/headerESCORP13.jpg" class="img_head" alt="Image not available">
             
             <!-- Titulo y Sub -->
             <div class="container_header">  
@@ -34,7 +34,7 @@
             
                 <div class="sub_header_right1"><p class="copy_header">Servicio.</p></div>
         
-                <div class="sub_header_right2"><p class="copy_header">Tecnologia.</p></div>
+                <div class="sub_header_right2"><p class="copy_header">Tecnología.</p></div>
         
                 <div class="sub_header_right3"><p class="copy_header">Responsabilidad.</p></div>
             
@@ -57,7 +57,7 @@
                         <div class="nosotros_main">
                             <b><br><h3 class="n_nosotros_main"></span>Misión</h3></b>
                             <div class="line_nosotros_main"></div>
-                            <p class="copy_nosotros_main" >ESCORP es un grupo 100% mexicano cuya misión es crear una red de servicios y productos de CALIDAD mediante el uso de tecnologia, impulsando a nuestros colaboradores a brindar un mejor servicio; obteniendo como resultado, que sus clientes se sientan con la CONFIANZA y SEGURIDAD que todo saldra bien.</p>
+                            <p class="copy_nosotros_main" >ESCORP es un grupo 100% mexicano cuya misión es crear una red de servicios y productos de CALIDAD mediante el uso de tecnología, impulsando a nuestros colaboradores a brindar un mejor servicio; obteniendo como resultado, que sus clientes sientan la CONFIANZA y SEGURIDAD que todo saldra bien.</p>
                         </div>
         
                     </div>
@@ -67,10 +67,10 @@
                         <div class="row">
                             <div class="col gallery">
                                 <div class="image_gallery">
-                                    <img src="img/nosotrosGallery1.jpg" alt="">
-                                    <img src="img/headerESCORP.jpg" alt="">
-                                    <img src="img/headerESCORP3.jpg" alt="">
-                                    <img src="img/nosotrosGallery2.jpg" alt="">
+                                    <img src="img/ESCORP/nosotrosGallery1.jpg" alt="Image not available">
+                                    <img src="img/ESCORP/headerESCORP.jpg" alt="Image not available">
+                                    <img src="img/ESCORP/headerESCORP3.jpg" alt="Image not available">
+                                    <img src="img/ESCORP/nosotrosGallery2.jpg" alt="Image not available">
                                 </div>
                             </div>
                         </div>
@@ -98,10 +98,10 @@
                         <div class="row">
                             <div class="col gallery">
                                 <div class="image_gallery">
-                                    <img src="img/joinUsESCORP1.jpeg" alt="">
-                                    <img src="img/joinUsESCORP4.jpg" alt="">
-                                    <img src="img/joinUsESCORP3.jpg" alt="">
-                                    <img src="img/joinUsESCORP5.jpeg" alt="">
+                                    <img src="img/ESCORP/joinUsESCORP1.jpeg" alt="Image not available">
+                                    <img src="img/ESCORP/joinUsESCORP4.jpg" alt="Image not available">
+                                    <img src="img/ESCORP/joinUsESCORP3.jpg" alt="Image not available">
+                                    <img src="img/ESCORP/joinUsESCORP5.jpeg" alt="Image not available">
                                 </div>
                             </div>
                         </div>
@@ -117,7 +117,7 @@
                         <div class="nosotros_main">
                             <b><br><h3 class="n_nosotros_main"></span>Valores</h3></b>
                             <div class="line_nosotros_main"></div>
-                            <p class="copy_nosotros_main">ESCORP se comprende de valores que ha obtenido de sus clientes y colaboradores, ya que busca brindar y recibir CONFIANZA, esto se traduce en trabajar con, y para, personas leales, responsables y honestas que fomenten un desarrollo cultural, cientifico y tecnologico con responsabilidad social.</p>
+                            <p class="copy_nosotros_main">ESCORP se comprende de valores que ha obtenido de sus clientes y colaboradores, ya que busca brindar y recibir CONFIANZA, esto se traduce en trabajar con, y para, personas leales, responsables y honestas que fomenten un desarrollo cultural, científico y tecnológico con responsabilidad social.</p>
                         </div>
         
                     </div>
@@ -127,10 +127,10 @@
                         <div class="row">
                             <div class="col gallery">
                                 <div class="image_gallery">
-                                    <img src="img/galleryValores3.jpg" alt="">
-                                    <img src="img/galleryValores2.jpg" alt="">
-                                    <img src="img/galleryValores4.jpg" alt="">
-                                    <img src="img/galleryValores5.jpg" alt="">
+                                    <img src="img/ESCORP/galleryValores3.jpg" alt="Image not available">
+                                    <img src="img/ESCORP/galleryValores2.jpg" alt="Image not available">
+                                    <img src="img/ESCORP/galleryValores4.jpg" alt="Image not available">
+                                    <img src="img/ESCORP/galleryValores5.jpg" alt="Image not available">
                                 </div>
                             </div>
                         </div>
@@ -143,7 +143,7 @@
         </main>
         
         <section class="footer">
-            <p>2020-2022 Website by ESCORP Technologies | All rights reserved.</p>
+            <p>2020-2023 Website by ESCORP Technologies | All rights reserved.</p>
         </section>
     </div>
 
