@@ -1,0 +1,374 @@
+body {
+  background: white;
+}
+
+.container_contacto {
+  width: 100%;
+}
+
+/* -------Header------------- */
+
+.header_contacto {
+  width: 100%;
+  height: 450px;
+  background: #000;
+
+}
+
+.img_head_contacto {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding-top: 50px;
+  object-fit: cover;
+}
+
+/* ------------Cuerpo---------------*/
+
+.section_contacto_main {
+  width: 100%;
+  height: auto;
+  margin: 0px;
+  padding: 0px;
+}
+
+.contenedor_subtitulo_main_contacto {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.subtitulo_main_contacto {
+  margin: auto;
+  font-size: 8vmin;
+  justify-content: center;
+  align-items: center;
+}
+
+.line {
+  width: 30vw;
+  height: 4px;
+  background: rgb(0, 128, 255);
+  margin: 0px auto 10px;
+  border-radius: 5px;
+}
+
+.contenedor_subtitulo_main_contacto {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.contenedor_check_slider_main_contacto {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Texto */
+.checklist_contacto_main {
+  width: 40%;
+  margin-left: 5%;
+}
+
+.contacto_main {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.n_contacto_main {
+  width: 100%;
+  font-size: 4vmin;
+  margin-left: 10px;
+  margin-bottom: 0px;
+  font-weight: bold;
+}
+
+.line_main {
+  width: 250px;
+  height: 4px;
+  background: rgb(0, 128, 255);
+  margin: 0px 0px 20px;
+  border-radius: 5px;
+}
+
+.copy_contacto_main {
+  width: 100%;
+  text-align: justify;
+  font-size: 2.75vmin;
+}
+
+/* Formulario */
+.formulario_container_contacto {
+  width: 50%;
+  height: 700px;
+  top: 0px;
+  margin: auto;
+  font-family: monospace;
+  position: relative;
+}
+
+.contacto_img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+}
+
+form {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  margin-top: 20px;
+  border-radius: 7px;
+  position: absolute;
+}
+
+.comentarios {
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.formulario__label {
+  display: block;
+  font-weight: 700;
+  padding: 10px;
+  cursor: pointer;
+  color: white;
+  margin-bottom: 0px;
+  font-size: 16px;
+}
+
+.formulario__grupo-input {
+  position: relative;
+}
+
+.inputs {
+  width: 100%;
+  height: 45px;
+  line-height: 45px;
+  font-size: 17px;
+  border: 5px solid transparent;
+  border-radius: 3px;
+  padding: 0 40px 0 10px;
+  transition: 0.3s ease all;
+}
+
+.inputs:focus {
+  border: 5px solid blue;
+  outline: none;
+  box-shadow: 3px 0px 30px rgba(163, 163, 163, 1);
+}
+
+.inputs:focus {
+  border: 5px solid blue;
+  outline: none;
+  box-shadow: 3px 0px 30px rgba(163, 163, 163, 1);
+}
+
+.formulario__input-error {
+  font-size: 12px;
+  margin-bottom: 0;
+  display: none;
+}
+
+.formulario__input-error-activo {
+  display: block;
+  color: red;
+}
+
+.formulario__validacion-estado {
+  position: absolute;
+  right: 10px;
+  bottom: 15px;
+  z-index: 100;
+  font-size: 16px;
+  opacity: 0;
+}
+
+.formulario__checkbox {
+  margin-right: 20px;
+}
+
+.formulario__mensaje {
+  height: 45px;
+  line-height: 45px;
+  background-color: red;
+  color: black;
+  padding: 0 15px;
+  border-radius: 3px;
+  margin-bottom: 20px;
+  display: none;
+}
+
+.formulario__mensaje-activo {
+  display: block;
+}
+
+.textarea {
+  width: 90%;
+  margin-bottom: 20px;
+  padding: 7px;
+  box-sizing: border-box;
+  font-size: 17px;
+  border: none;
+  min-height: 100px;
+  max-height: 200px;
+  min-width: 100%;
+  max-width: 100%;
+}
+
+.textarea:focus {
+  border: 5px solid blue;
+  outline: none;
+  box-shadow: 3px 0px 30px rgba(163, 163, 163, 0.4);
+}
+
+.boton {
+  font-size: 20px;
+  padding: 10px;
+  height: 45px;
+  line-height: 45px;
+  width: 30%;
+  background: blue;
+  border-radius: 3px;
+  color: white;
+  font-weight: bold;
+}
+
+.boton:hover {
+  cursor: pointer;
+  box-shadow: 3px 0 30px rgba(163, 163, 163, 1);
+}
+
+/* Estilos para validación */
+.formulario__grupo-correcto .formulario__validacion-estado {
+  color: #2ed12d;
+  opacity: 1;
+}
+
+.formulario__grupo-correcto .inputs {
+  border: 5px solid #2ed12d;
+}
+
+.formulario__grupo-incorrecto .formulario__label {
+  color: red;
+  opacity: 1;
+}
+
+.formulario__grupo-incorrecto .inputs {
+  border: 5px solid red;
+}
+
+.formulario__grupo-incorrecto .formulario__validacion-estado {
+  color: red;
+  opacity: 1;
+}
+
+/* ---------Footer--------- */
+.footer {
+  width: 100%;
+  min-height: 20px;
+  padding: 2px 0px;
+  margin: 0%;
+  border-top: 4px solid blue;
+  background: #000;
+  text-align: center;
+}
+
+.footer p {
+  color: #fff;
+  margin: 10px auto;
+  padding: 10px auto;
+  font-style: italic;
+  font-size: 2vmin;
+}
+
+/* Pantalla mediana */
+
+@media screen and (max-width: 920px) {
+
+  .img_head_contacto {
+    padding-top: 0px;
+  }
+
+  .checklist_contacto_main {
+    width: 90%;
+    margin: auto;
+  }
+
+  .formulario_container_contacto {
+    width: 90%;
+    margin-top: 15px;
+  }
+}
+
+/* Pantalla telefono */
+@media screen and (max-width: 530px) { 
+
+  .contenedor_subtitulo_main_contacto{
+    margin-bottom: 0px;
+  }
+
+  .line{
+    width: 40vw;
+    margin-bottom: 0px;
+  }
+
+  .contacto_main {
+    height: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+  }
+
+  .n_contacto_main {
+    width: 100%;
+    font-size: 5vmin;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .line_main {
+    width: 150px;
+  }
+
+  .copy_contacto_main {
+    font-size: 4vmin;
+  }
+
+  .formulario_container_contacto {
+    width: 95%;
+  }
+
+  .contacto_img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+/* @media screen and (max-width: 300px) {
+
+    .container_contacto{
+        width: 100vw;
+        padding: auto;
+        margin: auto;
+    }
+    
+    .contenedor_check_slider_main_contacto {
+        width: 100%;
+      }
+
+  .line {
+    width: 150px;
+  }
+} */

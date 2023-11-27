@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Menu</title>
-  <link rel="stylesheet" href="css/menuESCORP.css">
+  <link rel="stylesheet" href="css/ESCORP/menuESCORP.css">
   <?php
   require_once "dependencias.php";
   ?>
@@ -15,7 +15,7 @@
 
   <div id="nav">
 
-    <div style="background: #0a0a0a;" class="navbar navbar-inverse navbar-fixed-top" data-spy="affix" data-offset-top="100">
+    <div style="background: rgb(0,0,0);" class="navbar navbar-inverse navbar-fixed-top" data-spy="affix" data-offset-top="100">
 
       <div class="container">
 
@@ -27,7 +27,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.php"><img class="avatar" src="img/logoMenu.jpg" alt="" width="150px" height="150px"></a>
+          <a class="navbar-brand" href="index.php"><img class="avatar" src="img/ESCORP/logoMenu.jpg" alt="Image not available" width="150px" height="150px"></a>
 
         </div>
 

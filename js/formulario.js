@@ -4,7 +4,7 @@ const inputs=document.querySelectorAll('#frmContacto input');
 const expresiones = {
 	nombre: /^[a-zA-ZÀ-ÿ\s]{1,40}$/, // Letras y espacios, pueden llevar acentos.
 	correo: /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/,
-	telefono: /^\d{10,10}$/ // 7 a 14 numeros.
+	telefono: /^\d{10,10}$/ // 10 digitos se puede cambiar 7 a 14 numeros.
 }
 
 const campos = {

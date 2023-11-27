@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/nosotros.css">
+    <link rel="stylesheet" href="../css/Drivers/nosotrosDrivers.css">
     <title>Nosotros</title>
     <?php
         require_once "menu.php";
@@ -18,7 +18,7 @@
         
         <header class="header">
         
-            <img src="../img/nosotros1.jpg" class="img_head">
+            <img src="../img/Drivers/nosotros1.jpg" class="img_head">
             
             <!-- Titulo y Sub -->
             <div class="container_header">  
@@ -81,23 +81,23 @@
                         <div class="slider" id="slider">
                                 
                             <div class="slider__section">
-                                <img src="../img/nosotros2.jpg" alt="" class="slider__img">
+                                <img src="../img/Drivers/nosotros2.jpg" alt="Image not available" class="slider__img">
                             </div>
                             
                             <div class="slider__section">
-                                <img src="../img/nosotros3.jpg" alt="" class="slider__img">
+                                <img src="../img/Drivers/nosotros3.jpg" alt="Image not available" class="slider__img">
                             </div>
                         
                             <div class="slider__section">
-                                <img src="../img/nosotros4.jpg" alt="" class="slider__img">
+                                <img src="../img/Drivers/nosotros4.jpg" alt="Image not available" class="slider__img">
                             </div>
 
                             <div class="slider__section">
-                                <img src="../img/nosotros5.jpg" alt="" class="slider__img">
+                                <img src="../img/Drivers/nosotros5.jpg" alt="Image not available" class="slider__img">
                             </div>
 
                             <div class="slider__section">
-                                <img src="../img/nosotros6.jpg" alt="" class="slider__img">
+                                <img src="../img/Drivers/nosotros6.jpg" alt="Image not available" class="slider__img">
                             </div>
 
                             <br><br>

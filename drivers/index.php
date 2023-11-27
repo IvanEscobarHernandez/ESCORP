@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="Prueba Index">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/sliderInicio.css">
+    <link rel="stylesheet" href="../css/Drivers/indexDrivers.css">
     <title>ESCORP Drivers</title>
     <?php
         require_once "menu.php";
@@ -17,7 +17,7 @@
 
     <br>
     <div class="imagen_inicio">
-        <img src="../img/logoInicio.png" class="imageninicio">
+        <img src="../img/Drivers/logoInicio.png" class="imageninicio" alt="Image not available">
     </div>
 
     <div class="container-index">
@@ -37,10 +37,10 @@
                         
                     </div>
                     
-                    <img src="../img/2022.jpg" alt="" class="slider__img_extra">
+                    <img src="../img/Drivers/2022.jpg" alt="Image not available" class="slider__img_extra">
                 </div> -->
 
-                <div class="slider__section">
+                <!-- <div class="slider__section">
                     <div class="word__sectionExtra">
                         <p class="copyExtra">¡ESCORP desea que tengan felices fiestas!</p><br><br>
                         <p class="copyExtra">Y donde quiera que estas sean...</p>
@@ -50,8 +50,8 @@
                         
                     </div>
                     
-                    <img src="../img/sliderInicioExtra2.jpg" alt="" class="slider__img_extra">
-                </div>
+                    <img src="../img/Drivers/sliderInicioExtra2.jpg" alt="Image not available" class="slider__img_extra">
+                </div> -->
 
                 <div class="slider__section">
                     <div class="word__section1">
@@ -67,7 +67,7 @@
                         </div>
                     </div>
                     
-                    <img src="../img/sliderInicio1.jpg" alt="" class="slider__img">
+                    <img src="../img/Drivers/sliderInicio1.jpg" alt="Image not available" class="slider__img">
                 </div>
 
                 <div class="slider__section">
@@ -75,7 +75,7 @@
                         <p class="copy2"> ¡Donde nuestro activo más valioso es tu CONFIANZA!</p>
                     </div>
                     
-                    <img src="../img/sliderInicio2.jpg" alt="" class="slider__img">
+                    <img src="../img/Drivers/sliderInicio2.jpg" alt="Image not available" class="slider__img">
                 </div>
 
                 <div class="slider__section">
@@ -85,7 +85,7 @@
                         <p class="copy3"> Cargos extra, cancelaciones, esperar que acepten tu viaje, o sentirte inseguro todo el tiempo...</p>
                     </div>
 
-                    <img src="../img/sliderInicio3.jpg" alt="" class="slider__img2">
+                    <img src="../img/Drivers/sliderInicio3.jpg" alt="Image not available" class="slider__img2">
                 </div>
 
                 <div class="slider__section">
@@ -95,7 +95,7 @@
                         <p class="copy4"> ¡Somos tu mejor opción!</p>
                     </div>
 
-                    <img src="../img/sliderInicio4.jpg" alt="" class="slider__img">
+                    <img src="../img/Drivers/sliderInicio4.jpg" alt="Image not available" class="slider__img">
                 </div>
 
             </div>

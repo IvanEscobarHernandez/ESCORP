@@ -1,26 +1,26 @@
 <?php
 
-    /* $destino = "comentarios@escorp.com.mx"; */
-    $cuenta= $_POST["cuenta"];
-    $nombre = $_POST["nombre"];
-    $email = $_POST["email"];
-    $telefono = $_POST["telefono"];
-    $asunto = $_POST["asunto"];
-    $mensaje = nl2br($_POST['mensaje']) ;
+/* $destino = "comentarios@escorp.com.mx"; */
+$cuenta = $_POST["cuenta"];
+$nombre = $_POST["nombre"];
+$email = $_POST["email"];
+$telefono = $_POST["telefono"];
+$asunto = $_POST["asunto"];
+$mensaje = nl2br($_POST['mensaje']);
 
-    $validar=10;
-    if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
+$validar = 10;
+if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
 
-        if (strlen($telefono)==$validar){
-            
-            $para  = 'comentarios@escorp.com.mx' . ', '; // atención a la coma
-            $para .= 'navyescobar@gmail.com';
+    if (strlen($telefono) == $validar) {
 
-            // título
-            $título = ''.$asunto.' de '. $nombre. ' para '. $cuenta. '';
+        $para  = 'comentarios@escorp.com.mx' . ', '; // atención a la coma
+        $para .= 'escobarhernandezivan@gmail.com';
 
-            // mensaje
-            $mensaje = '
+        // título
+        $título = '' . $asunto . ' de ' . $nombre . ' para ' . $cuenta . '';
+
+        // mensaje
+        $mensaje = '
             <!DOCTYPE html>
                     <html lang="en">
                     <head>
@@ -70,7 +70,7 @@
 
                                     <br><br>
                                     <b>Mensaje:</b>
-                                    <br>  '. $mensaje .'
+                                    <br>  ' . $mensaje . '
                     
                                     <br><br>
                                 </td>
@@ -81,30 +81,27 @@
                     </html>
             ';
 
-            // Para enviar un correo HTML, debe establecerse la cabecera Content-type
-            $cabeceras  = 'MIME-Version: 1.0' . "\r\n";
-            $cabeceras .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
+        // Para enviar un correo HTML, debe establecerse la cabecera Content-type
+        $cabeceras  = 'MIME-Version: 1.0' . "\r\n";
+        $cabeceras .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
 
-            // Cabeceras adicionales
-            $cabeceras .= 'To: Ivan <navyescobar@gmail.com>' . "\r\n";
-            $cabeceras .= 'From: ESCORP <comentarios@escorp.com.mx>' . "\r\n";
+        // Cabeceras adicionales
+        /* $cabeceras .= 'To: Ivan <navyescobar@gmail.com>' . "\r\n"; */
+        $cabeceras .= 'From: ESCORP <comentarios@escorp.com.mx>' . "\r\n";
 
 
-            // Enviarlo
-            $enviado = mail($para, $título, $mensaje, $cabeceras);
+        // Enviarlo
+        $enviado = mail($para, $título, $mensaje, $cabeceras);
 
-            if ($enviado) {
-                echo 1; 
-            }else{
-                echo 0;
-            }
-        }else{
-            echo 3;  
+        if ($enviado) {
+            echo 1;
+        } else {
+            echo 0;
         }
     } else {
-        echo 2;
+        echo 3;
     }
-
-
-        
+} else {
+    echo 2;
+}
 ?>

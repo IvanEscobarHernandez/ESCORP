@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/mas_verificaciones.css">
-    <title>Más...</title>
+    <link rel="stylesheet" href="../css/Drivers/mas_verificaciones.css">
+    <title>Verificación...</title>
     
     <?php
     require_once "menu.php";
@@ -28,15 +28,15 @@
                         <div class="slider" id="slider">
                                 
                             <div class="slider__section">
-                                <img src="../img/ver_mas_verificacion1.jpg" alt="" class="slider__img">
+                                <img src="../img/Drivers/ver_mas_verificacion1.jpg" alt="Image not available" class="slider__img">
                             </div>
                             
                             <div class="slider__section">
-                                <img src="../img/ver_mas_verificacion2.jpg" alt="" class="slider__img">
+                                <img src="../img/Drivers/ver_mas_verificacion2.jpg" alt="Image not available" class="slider__img">
                             </div>
                         
                             <div class="slider__section">
-                                <img src="../img/ver_mas_verificacion3.jpg" alt="" class="slider__img">
+                                <img src="../img/Drivers/ver_mas_verificacion3.jpg" alt="Image not available" class="slider__img">
                             </div>
 
                             <br><br>
@@ -99,7 +99,7 @@
 
     </div>
     
-    <script src="../js/slider_mas_tiempo.js"></script>
+    <script src="../js/slider_mas_servicios.js"></script>
     
 
 </body>

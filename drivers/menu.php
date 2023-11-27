@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Menu</title>
-  <link rel="stylesheet" href="../css/menuDrivers.css">
+  <link rel="stylesheet" href="../css/Drivers/menuDrivers.css">
   <?php
   require_once "dependencias.php";
   ?>
@@ -15,7 +15,7 @@
 
   <div id="nav">
 
-    <div style="background: #0a0a0a;" class="navbar navbar-inverse navbar-fixed-top" data-spy="affix" data-offset-top="100">
+    <div style="background: #000000;" class="navbar navbar-inverse navbar-fixed-top" data-spy="affix" data-offset-top="100">
 
       <div class="container">
 
@@ -27,7 +27,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="../index.php"><img class="avatar" src="../img/logoMenu.jpg" alt="" width="150px" height="150px"></a>
+          <a class="navbar-brand" href="../index.php"><img class="avatar" src="../img/Drivers/logoMenu.jpg" alt="Image not available" width="150px" height="150px"></a>
 
         </div>
 
